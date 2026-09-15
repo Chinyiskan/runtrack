@@ -17,7 +17,7 @@ app.use(cors({
         "http://localhost:5500",
         "http://127.0.0.1:5500",
         // 👉 agregar aquí la URL de Vercel cuando exista
-        "http://runtrack-ten.vercel.app"
+        "https://runtrack-ten.vercel.app"
     ],
 }));
 
