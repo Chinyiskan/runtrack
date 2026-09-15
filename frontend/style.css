@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 40px 16px;
+}
+
+.contenedor {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 4px;
+}
+
+.subtitulo {
+    color: #94a3b8;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+label {
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-size: 15px;
+}
+
+button {
+    margin-top: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #22c55e;
+    color: #0f172a;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a34a;
+}
+
+#mensajeEstado {
+    font-size: 14px;
+    min-height: 20px;
+}
+
+.tarjeta-carrera {
+    background-color: #1e293b;
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta-carrera .pace {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.vacio {
+    color: #64748b;
+    font-size: 14px;
+}
