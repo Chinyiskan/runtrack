@@ -11,7 +11,7 @@
 // Mientras prueban local, esto se queda así.
 // Cuando el backend ya esté en Render, cambian este valor
 // por la URL real que Render les dio (termina en .onrender.com)
-const API_URL = "http://localhost:3000";
+const API_URL = "https://runtrack-hnxa.onrender.com";
 
 const formCarrera = document.getElementById("formCarrera");
 const listaCarreras = document.getElementById("listaCarreras");
